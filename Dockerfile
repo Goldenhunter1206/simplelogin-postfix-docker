@@ -1,5 +1,5 @@
 FROM alpine:3
-
+# added port 443
 EXPOSE 25 80 443
 VOLUME /etc/letsencrypt
 
