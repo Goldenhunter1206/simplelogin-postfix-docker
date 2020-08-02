@@ -1,6 +1,6 @@
 FROM alpine:3
 
-EXPOSE 25 80
+EXPOSE 25 80 443
 VOLUME /etc/letsencrypt
 
 # Install system dependencies.
